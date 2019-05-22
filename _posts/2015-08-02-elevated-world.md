@@ -545,7 +545,7 @@ addTripleOpt (Some 1) (Some 2) (Some 3)
 
 ### Interpreting "lift2" as a "combiner"
 
-There is an alternative interpretation of `apply` as a "combiner" of elevated values, rather than as function application.
+There is an alternative interpretation of `liftN` as a "combiner" of elevated values, rather than as function application.
 
 For example, when using `lift2`, the first parameter is a parameter specifying how to combine the values.
 
